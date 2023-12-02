@@ -28,8 +28,8 @@ jobs:
 
     - name: Save Results to HTTP.txt
       run: |
-        git config --local user.email "actions@github.com"
-        git config --local user.name "GitHub Actions"
+        git config --local user.email "pvenv@icloud.com"
+        git config --local user.name "Vladimir Penzin"
         git add http.txt
         git commit -m "Update http.txt"
         git push origin HEAD
