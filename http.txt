@@ -8,3 +8,13 @@
 <Proxy CN 0.42s [HTTP: Transparent] 117.160.250.132:80>
 <Proxy CN 0.45s [HTTP: High] 153.101.67.170:9002>
 <Proxy CN 0.45s [HTTP: High] 112.51.96.118:9091>
+<Proxy US 0.06s [HTTP: Transparent] 23.94.41.236:8081>
+<Proxy US 0.07s [HTTP: High] 12.186.205.122:80>
+<Proxy DZ 0.34s [HTTP: Anonymous] 41.111.198.108:80>
+<Proxy US 0.32s [HTTP: Anonymous] 65.20.235.217:8080>
+<Proxy UA 0.24s [HTTP: High] 185.143.147.59:8080>
+<Proxy IN 0.42s [HTTP: High] 115.96.208.124:8080>
+<Proxy TW 0.42s [HTTP: High] 60.244.170.70:80>
+<Proxy CN 0.46s [HTTP: High] 218.23.15.154:9002>
+<Proxy SG 0.46s [HTTP: High] 202.83.102.83:8080>
+<Proxy CN 0.47s [HTTP: High] 47.114.101.57:8888>
