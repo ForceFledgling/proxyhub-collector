@@ -24,7 +24,7 @@ jobs:
         pip install proxyhub
 
     - name: Find HTTP Proxies
-      run: proxyhub find --types HTTP
+      run: proxyhub find --types HTTP >> result.txt
 
     - name: Save Results to HTTP.txt
       run: echo "$(<result.txt)" > HTTP.txt
