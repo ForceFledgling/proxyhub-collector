@@ -7,7 +7,7 @@ jobs:
   find_proxies:
     runs-on: ubuntu-latest
 
-    timeout-minutes: 1
+    # timeout-minutes: 1
 
     steps:
     - name: Checkout Repository
@@ -24,7 +24,8 @@ jobs:
         pip install proxyhub
 
     - name: Find HTTP Proxies
-      run: timeout 30 proxyhub find --types HTTP >> http.txt || true
+      # run: timeout 30 proxyhub find --types HTTP >> http.txt || true
+      run: proxyhub find --types HTTP >> http.txt
 
     - name: Save Results to HTTP.txt
       run: |
